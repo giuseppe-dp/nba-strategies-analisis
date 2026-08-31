@@ -2,14 +2,22 @@ import kagglehub
 import sqlite3 as sql
 import pandas as pd
 import dtale as dt
+import os
 
 # # Download latest version
-# path = kagglehub.dataset_download("wyattowalsh/basketball")
+base_path = os.path.dirname(os.path.abspath(__file__))
 
-# print("Path to dataset files:", path)
+target_path = os.path.join(base_path, "dataset")
+
+path = kagglehub.dataset_download(
+  "wyattowalsh/basketball", 
+  output_dir=target_path
+)
+
+print(f"Dataset scaricato con successo in:\n{path}")
 
 # connect al SQL database
-db_path = 'nba.sqlite'
+db_path = os.path.join(target_path,'nba.sqlite')
 connection = sql.connect(db_path)
 print("SQL database connected")
 table = pd.read_sql_query("SELECT name FROM sqlite_master WHERE type='table'", connection)
