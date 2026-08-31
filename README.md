@@ -27,6 +27,8 @@ Il progetto è strutturato tramite programmi Python da lanciare a terminale pass
 
 i file si dividono in:
 * Analisi_Strategie_Nba.pdf è lo studio completo scritto in latex con rispettivi grafici e risultati.
+* data_import.py serve per importare i file da Kaggle.
+* 
 
 
 **1. Clonazione e setup**
