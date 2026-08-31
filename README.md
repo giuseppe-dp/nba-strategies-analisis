@@ -28,10 +28,9 @@ Il progetto è strutturato tramite programmi Python da lanciare a terminale pass
 i file si dividono in:
 * Analisi_Strategie_Nba.pdf è lo studio completo scritto in latex con rispettivi grafici e risultati.
 * data_import.py serve per importare i file da Kaggle.
-* 
+* three_script.py è lo script per fare l'analisi dati e generare i vari grafici.
 
-
-**1. Clonazione e setup**
+**Clonazione e setup**
 ```bash
 git clone [https://github.com/giuseppe-dp/nba-strategies-analisis.git](https://github.com/giuseppe-dp/nba-strategies-analisis.git)
 cd nba-strategies-analisis
