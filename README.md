@@ -24,8 +24,9 @@ L'elaborazione dei dati si è articolata in tre fasi principali, gestite interam
 
 ## 🚀 Utilizzo del codice
 Il progetto è strutturato tramite programmi Python da lanciare a terminale passo dopo passo.
+
 i file si dividono in:
-.pdf) è lo studio completo scritto in latex con rispettivi grafici e risultati.
+* Analisi_Strategie_Nba.pdf è lo studio completo scritto in latex con rispettivi grafici e risultati.
 
 
 **1. Clonazione e setup**
