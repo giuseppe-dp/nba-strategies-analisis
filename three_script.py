@@ -9,7 +9,9 @@ from pathlib import Path
 import os
 
 # connect al SQL database
-db_path = 'nba.sqlite'
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+db_path = os.path.join(base_path, "dataset", "nba.sqlite")
 connection = sql.connect(db_path)
 print("SQL database connected")
 table = pd.read_sql_query("SELECT name FROM sqlite_master WHERE type='table'", connection)
