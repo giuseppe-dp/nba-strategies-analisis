@@ -60,7 +60,7 @@ Data processing was divided into three main phases, entirely managed via Python 
 The project is structured around Python programs designed to be executed step-by-step via the terminal.
 
 The main files are:
-*   `nba_strategies_analisis.pdf`: The complete study written in LaTeX, including detailed graphs and results.
+*   `nba_strategies_analysis.pdf`: The complete study written in LaTeX, including detailed graphs and results.
 *   `data_import.py`: The script used to download and import the dataset from Kaggle.
 *   `three_script.py`: The main script to perform data analysis and generate the various plots.
 
